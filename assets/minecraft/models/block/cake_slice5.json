@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/cake_top",
+		"1": "block/cake_bottom",
+		"3": "block/cake_side",
+		"4": "block/jack_o_lantern",
+		"5": "block/pumpkin_side",
+		"6": "block/pumpkin_top",
+		"7": "block/cake_inner",
+		"particle": "block/cake_top"
+	},
+	"elements": [
+		{
+			"from": [11, 0, 1],
+			"to": [15, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [19, 8, 9]},
+			"faces": {
+				"north": {"uv": [1, 8, 5, 16], "texture": "#3"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#3"},
+				"south": {"uv": [11, 8, 15, 16], "texture": "#3"},
+				"west": {"uv": [1, 8, 15, 16], "texture": "#7"},
+				"up": {"uv": [11, 1, 15, 15], "texture": "#0"},
+				"down": {"uv": [11, 1, 15, 15], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [8, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 3.7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 70, 0],
+			"translation": [0, 3.25, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, -70, 0],
+			"translation": [0, 3.25, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -150, 0],
+			"translation": [3.25, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 70, 0],
+			"translation": [3.25, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, -0.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [25, -130, 0],
+			"translation": [0, 1.5, -7],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 12.75, 0]
+		},
+		"fixed": {
+			"translation": [0, -2, -7]
+		}
+	}
+}

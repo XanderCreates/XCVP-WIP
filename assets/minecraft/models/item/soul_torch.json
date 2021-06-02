@@ -1,0 +1,6 @@
+{
+	"parent": "item/parent/torchparent",
+	"textures": {
+		"texture": "block/soul_torch"
+	}
+}

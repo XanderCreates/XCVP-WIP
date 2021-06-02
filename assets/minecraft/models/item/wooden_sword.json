@@ -1,0 +1,7 @@
+{
+	"parent": "item/parent/swordparent",
+	"ambientocclusion": true,
+	"textures": {
+		"texture": "item/wooden_sword"
+	}
+}

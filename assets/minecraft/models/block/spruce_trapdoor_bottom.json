@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_orientable_trapdoor_bottom_sp",
+  "textures": {
+    "texture": "minecraft:block/spruce_trapdoor",
+	"textureside": "block/spruce_trapdoor_frontback",
+	"texturesideone": "block/spruce_trapdoor_side"
+  }
+}

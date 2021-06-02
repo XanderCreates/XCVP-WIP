@@ -1,0 +1,7 @@
+{
+	"parent": "item/parent/swordparent",
+	"ambientocclusion": true,
+	"textures": {
+		"texture": "item/golden_sword"
+	}
+}
